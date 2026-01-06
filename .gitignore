@@ -1,0 +1,81 @@
+# ==============================
+# Python / Jupyter
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# ==============================
+# Virtual environments
+# ==============================
+env/
+venv/
+.venv/
+conda_env/
+*.conda
+
+# ==============================
+# OS / Editor junk
+# ==============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==============================
+# Logs & temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+*.out
+
+# ==============================
+# Machine learning artifacts
+# ==============================
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.ckpt
+
+# ==============================
+# Large generated outputs (optional)
+# ==============================
+results/figures/png/*.png
+results/figures/pdf/*.pdf
+
+# Uncomment above ONLY if figures are fully regenerable
+# and already included in the manuscript/SI
+
+# ==============================
+# Data handling
+# ==============================
+# Keep raw data tracked
+# Ignore temporary downloads or caches
+data/raw/*.zip
+data/raw/*.tar.gz
+
+# ==============================
+# LaTeX auxiliary files (if included)
+# ==============================
+*.aux
+*.bbl
+*.blg
+*.lof
+*.lot
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ==============================
+# Misc
+# ==============================
+.cache/
+.eggs/
+*.egg-info/
